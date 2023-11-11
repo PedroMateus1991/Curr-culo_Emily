@@ -1,0 +1,11 @@
+print("*"*20)
+print(" Investimento Reis")
+print("*"*20)
+nome = input("Qual Seu nome? ")
+cpf = input("Qual Seu CPF (somente numero)? ")
+data_nascimento = input("Qual Sua data de nascimento(DDMMAAAA)? ")
+telefone = input("Qual Seu Telefone? ")
+endereco = input("Qual Seu Endereço? ")
+
+dados_cliente = (nome, cpf, data_nascimento, telefone, endereco)
+print(dados_cliente)
